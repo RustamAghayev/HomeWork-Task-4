@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rustammag\\source\\repos\\Task 4 General\\Task 4 General\\Task 4 General.csproj": {}
+    "C:\\Users\\UK\\Desktop\\Task 4 General\\HomeWork-Task-4(git)\\Task 4 General\\Task 4 General.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rustammag\\source\\repos\\Task 4 General\\Task 4 General\\Task 4 General.csproj": {
+    "C:\\Users\\UK\\Desktop\\Task 4 General\\HomeWork-Task-4(git)\\Task 4 General\\Task 4 General.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rustammag\\source\\repos\\Task 4 General\\Task 4 General\\Task 4 General.csproj",
+        "projectUniqueName": "C:\\Users\\UK\\Desktop\\Task 4 General\\HomeWork-Task-4(git)\\Task 4 General\\Task 4 General.csproj",
         "projectName": "Task 4 General",
-        "projectPath": "C:\\Users\\rustammag\\source\\repos\\Task 4 General\\Task 4 General\\Task 4 General.csproj",
-        "packagesPath": "C:\\Users\\rustammag\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rustammag\\source\\repos\\Task 4 General\\Task 4 General\\obj\\",
+        "projectPath": "C:\\Users\\UK\\Desktop\\Task 4 General\\HomeWork-Task-4(git)\\Task 4 General\\Task 4 General.csproj",
+        "packagesPath": "C:\\Users\\UK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\UK\\Desktop\\Task 4 General\\HomeWork-Task-4(git)\\Task 4 General\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\rustammag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\UK\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

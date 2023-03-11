@@ -489,8 +489,98 @@
         Neticenin ustune ortaya dushen 2 reqemini gel.
  */
 #endregion
+#region task 12
+//int num1;
+//l1:
+//Console.WriteLine("6 reqemli ededi daxil edin");
+//string mainNumber = Console.ReadLine();
 
+//if (!int.TryParse(mainNumber, out num1))
+//{
+//    Console.WriteLine("duzgun ededi daxil edin");
+//    goto l1;
+//}
+//int number = (int)Math.Log10(num1) + 1;
+//if (number != 6)
+//{
+//    goto l1;
+//}
 
+//int sum1 = num1 + 8000000;
+//int sum2 = sum1 * 10 + 8;
+
+//int sum3 = sum2 / 10000;
+//int sum4 = sum2 % 10000 * 10000 + sum3;
+//Console.WriteLine(sum4);
+//int sum10 = 0;
+//int sum11 = 0;
+//while (sum4 > 0)
+//{
+//    int faiz = sum4 % 10;
+//    sum4 /= 100;
+
+//    sum10 = sum10 * 100 + faiz * 10;
+//}
+//while (sum10 > 0)
+//{
+//    int faiz = sum10 % 10;
+//    sum10 /= 10;
+//    sum11 = sum11 * 10 + faiz;
+//}
+////Console.WriteLine(sum10);
+//Console.WriteLine(sum11);
+/*
+12) Verilmihs 6 reqemli ededdin evveline ve axirina 8 artir.
+    Alinan neticenin ilk 4 reqemi ile son 4 reqeminin yerini deyish
+    Neticenin tek yerde dayanan reqemlerini 0 reqemi ile evez et.
+ */
+#endregion
+#region Task 13
+//int value;
+//l1:
+//Console.WriteLine("7 reqemli ededi daxil edin: ");
+//string mainNumber1 = Console.ReadLine();
+
+//if (!int.TryParse(mainNumber1, out value))
+//{
+//    Console.WriteLine("duzgun ededi daxil edin");
+//    goto l1;
+//}
+//int number = (int)Math.Log10(value) + 1;
+//if (number != 7)
+//{
+//    goto l1;
+//}
+//int sum = 0;
+//int temp = value;
+
+//while (temp > 0)
+//{
+//    int faiz = temp % 10;
+//    temp /= 10;
+//    sum = sum * 10 + faiz;
+//}
+//if (value == sum)
+//{
+//    int sum2 = 0;
+//    while (value == sum)
+//    {
+//        int faiz1 = value % 10;
+//        value /= 10;
+//        if (faiz1 == 0)
+//        {
+//            sum2++;
+//        }
+
+//    }
+//    Console.WriteLine(sum2);
+//}
+
+/*
+ 13) Verilmish 7 reqemli eded polindromdursa
+ o zaman onun daxilnde nece dene 0 reqemi oldugunu tap?
+ */
+#endregion
 #region Task 15
 //int num1;
 //l1:
