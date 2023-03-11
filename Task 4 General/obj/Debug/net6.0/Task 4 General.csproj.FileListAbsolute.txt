@@ -1,0 +1,15 @@
+C:\Users\rustammag\source\repos\Task 4 General\Task 4 General\bin\Debug\net6.0\Task 4 General.exe
+C:\Users\rustammag\source\repos\Task 4 General\Task 4 General\bin\Debug\net6.0\Task 4 General.deps.json
+C:\Users\rustammag\source\repos\Task 4 General\Task 4 General\bin\Debug\net6.0\Task 4 General.runtimeconfig.json
+C:\Users\rustammag\source\repos\Task 4 General\Task 4 General\bin\Debug\net6.0\Task 4 General.dll
+C:\Users\rustammag\source\repos\Task 4 General\Task 4 General\bin\Debug\net6.0\Task 4 General.pdb
+C:\Users\rustammag\source\repos\Task 4 General\Task 4 General\obj\Debug\net6.0\Task 4 General.csproj.AssemblyReference.cache
+C:\Users\rustammag\source\repos\Task 4 General\Task 4 General\obj\Debug\net6.0\Task 4 General.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rustammag\source\repos\Task 4 General\Task 4 General\obj\Debug\net6.0\Task 4 General.AssemblyInfoInputs.cache
+C:\Users\rustammag\source\repos\Task 4 General\Task 4 General\obj\Debug\net6.0\Task 4 General.AssemblyInfo.cs
+C:\Users\rustammag\source\repos\Task 4 General\Task 4 General\obj\Debug\net6.0\Task 4 General.csproj.CoreCompileInputs.cache
+C:\Users\rustammag\source\repos\Task 4 General\Task 4 General\obj\Debug\net6.0\Task 4 General.dll
+C:\Users\rustammag\source\repos\Task 4 General\Task 4 General\obj\Debug\net6.0\refint\Task 4 General.dll
+C:\Users\rustammag\source\repos\Task 4 General\Task 4 General\obj\Debug\net6.0\Task 4 General.pdb
+C:\Users\rustammag\source\repos\Task 4 General\Task 4 General\obj\Debug\net6.0\Task 4 General.genruntimeconfig.cache
+C:\Users\rustammag\source\repos\Task 4 General\Task 4 General\obj\Debug\net6.0\ref\Task 4 General.dll
