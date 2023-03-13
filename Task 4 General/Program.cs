@@ -1,3 +1,65 @@
+﻿#region Task 1
+//    int num;
+//L1:
+//    Console.Write("Ededi daxil edin: ");
+//    string strNum = Console.ReadLine();
+//    if (!int.TryParse(strNum, out num))
+//    {
+//        goto L1;
+//    }
+//    if (num % 2 == 0)
+//    {
+//        Console.WriteLine("Verilmis eded cutdur");
+//    }
+//    else
+//    {
+//        Console.WriteLine("Verilmis eded tekdir");
+//    }
+#endregion
+#region Task 2
+//    int result, num1, num2;
+//L1:
+//    Console.Write("1. ededi daxil edin: ");
+//    string strNum1 = Console.ReadLine();
+//    if (!int.TryParse(strNum1, out num1))
+//    {
+//        goto L1;
+//    }
+//L2:
+//    Console.Write("2. ededi daxil edin: ");
+//    string strNum2 = Console.ReadLine();
+//    if (!int.TryParse(strNum2, out num2))
+//    {
+//        goto L2;
+//    }
+//    result = num1 / num2;
+//    if (num1 % num2 == 0)
+//    {
+//        Console.WriteLine($"Netice: {result}");
+//    }
+//    else
+//    {
+//        Console.WriteLine("Bolunmur.");
+//    }
+#endregion
+#region Task 3
+//    int num;
+//L1:
+//    Console.Write("Ededi daxil edin: ");
+//    string strNum = Console.ReadLine();
+//    if (!int.TryParse(strNum, out num))
+//    {
+//        goto L1;
+//    }
+//    if (num % 10 == 7)
+//    {
+//        Console.WriteLine("Verilmis ededin sonuncu reqemi 7 ile qurtarirmi: Beli");
+//    }
+//    else
+//    {
+//        Console.WriteLine("Verilmis ededin sonuncu reqemi 7 ile qurtarirmi: Xeyr");
+//    }
+#endregion
 #region Task 4
 //int num1;
 //l1:
@@ -476,7 +538,7 @@
 //if (value == sum)
 //{
 //    int sum2 = 0;
-//    while (value == sum)
+//    while (value > 0)
 //    {
 //        int faiz1 = value % 10;
 //        value /= 10;
@@ -494,26 +556,231 @@
  o zaman onun daxilnde nece dene 0 reqemi oldugunu tap?
  */
 #endregion
+#region Task 14
+//int value;
+//l1:
+//Console.WriteLine("ededi daxil edin");
+
+
+//if (!int.TryParse(Console.ReadLine(), out value) || !(1 <= value && value < 100000000))
+//{
+//    Console.WriteLine("duzgun ededi daxil edin");
+//    goto l1;
+//}
+
+//int temp = value;
+//int sum = 0;
+//while (temp > 0)
+//{
+//    int percent1 = temp % 10;
+
+//    temp /= 10;
+//    sum = sum * 10 + percent1;
+//}
+
+//int sum2 = sum * 10 + 1;
+//int sum3 = 0;
+//while (sum2 > 0)
+//{
+//    int percent2 = sum2 % 10;
+//    sum2 /= 10;
+//    sum3 = sum3 * 10 + percent2;
+//}
+//Console.WriteLine(sum3);
+/*
+ 14) Bir eded daxil et. Bu eded maksimum 8 reqemli ola biler( bu o demekdirki 1,2,3,4,5,6,7 reqemlide ola biler)
+    Bu ededin evvelin 1 reqemini artir.
+ */
+#endregion
+#region Task 14 (V2)
+//int num, numDigit, power, newNum;
+//string strNum;
+//L1:
+//Console.Write("1-8 araliqinda eded daxil edin: ");
+//strNum = Console.ReadLine();
+//if (!int.TryParse(strNum, out num))
+//{
+//    goto L1;
+//}
+//numDigit = (int)Math.Log10(num) + 1;
+//if (numDigit > 8)
+//{
+//    goto L1;
+//}
+//power = (int)Math.Pow(10, numDigit);
+//newNum = power + num;
+//Console.WriteLine(newNum);
+
+/*
+ 14) Bir eded daxil et. Bu eded maksimum 8 reqemli ola biler( bu o demekdirki 1,2,3,4,5,6,7 reqemlide ola biler)
+    Bu ededin evvelin 1 reqemini artir.
+ */
+#endregion
 #region Task 15
-//int num1;
+//int value;
 //l1:
 //Console.WriteLine("1-365 arasi reqem daxil edin!");
-//string mainNumber = Console.ReadLine();
+//string mainNumber;
 
-//if (!int.TryParse(mainNumber, out num1))
+//if (!int.TryParse(Console.ReadLine(), out value) || !(1 <= value && value <= 365))
 //{
 //    Console.WriteLine("duzgun eded daxil etmediniz");
 //    goto l1;
 //}
+//if (1 <= value && value <= 31)
+//{
+//    Console.WriteLine("Ay: Yanvar");
+//}
+//else if (32 <= value && value <= 59)
+//{
+//    Console.WriteLine("Ay: Fevral");
+//}
+//else if (60 <= value && value <= 90)
+//{
+//    Console.WriteLine("Ay: Mart");
+//}
+//else if (91 <= value && value <= 120)
+//{
+//    Console.WriteLine("Ay: Aprel");
+//}
+//else if (121 <= value && value <= 151)
+//{
+//    Console.WriteLine("Ay: May");
+//}
+//else if (152 <= value && value <= 181)
+//{
+//    Console.WriteLine("Ay: Iyun");
+//}
+//else if (182 <= value & value <= 212)
+//{
+//    Console.WriteLine("Ay: Iyul");
+//}
+//else if (213 <= value && value <= 243)
+//{
+//    Console.WriteLine("Ay: Avqust");
+//}
+//else if (244 <= value && value <= 273)
+//{
+//    Console.WriteLine("Ay: Sentyabr");
+//}
+//else if (274 <= value && value <= 304)
+//{
+//    Console.WriteLine("Ay: Oktyabr");
+//}
+//else if (305 <= value & value <= 334)
+//{
+//    Console.WriteLine("Ay: Noyabr");
+//}
+//else
+//{
+//    Console.WriteLine("Ay: Dekabr");
+//}
+
+////--------------------------------------------------------------------------------
+
+//if (1 <= value && value <= 19 || 355 <= value && value <= 365)
+//{
+//    Console.WriteLine("Burc: Oglaq");
+//}
+//else if (20 <= value && value <= 49)
+//{
+//    Console.WriteLine("Burc: Dolca");
+//}
+//else if (50 <= value && value <= 79)
+//{
+//    Console.WriteLine("Burc: Baliq");
+//}
+//else if (80 <= value && value <= 109)
+//{
+//    Console.WriteLine("Burc: Qoc");
+//}
+//else if (110 <= value && value <= 140)
+//{
+//    Console.WriteLine("Burc: Buga");
+//}
+//else if (141 <= value && value <= 171)
+//{
+//    Console.WriteLine("Burc: Ekizler");
+//}
+//else if (172 <= value && value <= 203)
+//{
+//    Console.WriteLine("Burc: Xerceng");
+//}
+//else if (204 <= value && value <= 234)
+//{
+//    Console.WriteLine("Burc: Sir");
+//}
+//else if (236 <= value && value <= 265)
+//{
+//    Console.WriteLine("Burc: Qiz");
+//}
+//else if (266 <= value && value <= 296)
+//{
+//    Console.WriteLine("Burc: Terezi");
+//}
+//else if (297 <= value && value <= 325)
+//{
+//    Console.WriteLine("Burc: Eqreb");
+//}
+//else
+//{
+//    Console.WriteLine("Burc: Dolca");
+//}
+
+
+
+//New Add
+
+
+
 //DateTime Date = new DateTime(2023, 1, 1);
 
-//Date = Date.AddDays(num1 - 1);
+//Date = Date.AddDays(value - 1);
 
 //Console.WriteLine(Date.Month);
 
-///*
+//*
 // 15) IF operatoru ile yoxla.
 //    Verilmish ededdin 1-ile 365 arasinda olugunu yoxla (1 ve 365 ozude daxil olmaq sherti ile)
 //    Ededin ilin hansi ayina dushduyunu tap. Ve hemin ay ve gune uygun hansi burc oldugunu goster
 // */
+#endregion
+#region Task 16
+//int num, numDigit, remainder, size;
+//string strNum;
+//L1:
+//Console.Write("6 reqemli ededi daxil edin: ");
+//strNum = Console.ReadLine();
+//if (!int.TryParse(strNum, out num))
+//{
+//    goto L1;
+//}
+//numDigit = (int)Math.Log10(num) + 1;
+//if (numDigit > 8)
+//{
+//    goto L1;
+//}
+//int[] nums = new int[0];
+//while (num > 0)
+//{
+//    remainder = num % 10;
+//    num /= 10;
+
+//    if (Array.IndexOf(nums, remainder) == -1)
+//    {
+//        size = nums.Length;
+//        Array.Resize(ref nums, size + 1);
+//        nums[size] = remainder;
+//    }
+//}
+//Console.WriteLine($" tapilan  {nums.Length}");
+//foreach (var count in nums)
+//{
+//    Console.Write($"tapilan tekrar reqemler {count}, ");
+//}
+
+/*
+  Verilmish 6 reqemli ededde nece unikal reqem var ?
+( UNIKAL- Ededin daxilde her reqemden bir numayende secilecek. Yekunda nece numayende olacaq?)
+ */
 #endregion
