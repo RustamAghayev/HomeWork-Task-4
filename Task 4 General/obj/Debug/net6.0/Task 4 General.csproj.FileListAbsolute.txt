@@ -28,3 +28,18 @@ C:\Users\UK\Desktop\Task 4 General\HomeWork-Task-4(git)\Task 4 General\obj\Debug
 C:\Users\UK\Desktop\Task 4 General\HomeWork-Task-4(git)\Task 4 General\obj\Debug\net6.0\Task 4 General.pdb
 C:\Users\UK\Desktop\Task 4 General\HomeWork-Task-4(git)\Task 4 General\obj\Debug\net6.0\Task 4 General.genruntimeconfig.cache
 C:\Users\UK\Desktop\Task 4 General\HomeWork-Task-4(git)\Task 4 General\obj\Debug\net6.0\ref\Task 4 General.dll
+C:\Users\UK\Desktop\Code World\HomeWorks\Task 4 (git)\HomeWork-Task-4(git)\Task 4 General\bin\Debug\net6.0\Task 4 General.exe
+C:\Users\UK\Desktop\Code World\HomeWorks\Task 4 (git)\HomeWork-Task-4(git)\Task 4 General\bin\Debug\net6.0\Task 4 General.deps.json
+C:\Users\UK\Desktop\Code World\HomeWorks\Task 4 (git)\HomeWork-Task-4(git)\Task 4 General\bin\Debug\net6.0\Task 4 General.runtimeconfig.json
+C:\Users\UK\Desktop\Code World\HomeWorks\Task 4 (git)\HomeWork-Task-4(git)\Task 4 General\bin\Debug\net6.0\Task 4 General.dll
+C:\Users\UK\Desktop\Code World\HomeWorks\Task 4 (git)\HomeWork-Task-4(git)\Task 4 General\bin\Debug\net6.0\Task 4 General.pdb
+C:\Users\UK\Desktop\Code World\HomeWorks\Task 4 (git)\HomeWork-Task-4(git)\Task 4 General\obj\Debug\net6.0\Task 4 General.csproj.AssemblyReference.cache
+C:\Users\UK\Desktop\Code World\HomeWorks\Task 4 (git)\HomeWork-Task-4(git)\Task 4 General\obj\Debug\net6.0\Task 4 General.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\UK\Desktop\Code World\HomeWorks\Task 4 (git)\HomeWork-Task-4(git)\Task 4 General\obj\Debug\net6.0\Task 4 General.AssemblyInfoInputs.cache
+C:\Users\UK\Desktop\Code World\HomeWorks\Task 4 (git)\HomeWork-Task-4(git)\Task 4 General\obj\Debug\net6.0\Task 4 General.AssemblyInfo.cs
+C:\Users\UK\Desktop\Code World\HomeWorks\Task 4 (git)\HomeWork-Task-4(git)\Task 4 General\obj\Debug\net6.0\Task 4 General.csproj.CoreCompileInputs.cache
+C:\Users\UK\Desktop\Code World\HomeWorks\Task 4 (git)\HomeWork-Task-4(git)\Task 4 General\obj\Debug\net6.0\Task 4 General.dll
+C:\Users\UK\Desktop\Code World\HomeWorks\Task 4 (git)\HomeWork-Task-4(git)\Task 4 General\obj\Debug\net6.0\refint\Task 4 General.dll
+C:\Users\UK\Desktop\Code World\HomeWorks\Task 4 (git)\HomeWork-Task-4(git)\Task 4 General\obj\Debug\net6.0\Task 4 General.pdb
+C:\Users\UK\Desktop\Code World\HomeWorks\Task 4 (git)\HomeWork-Task-4(git)\Task 4 General\obj\Debug\net6.0\Task 4 General.genruntimeconfig.cache
+C:\Users\UK\Desktop\Code World\HomeWorks\Task 4 (git)\HomeWork-Task-4(git)\Task 4 General\obj\Debug\net6.0\ref\Task 4 General.dll
