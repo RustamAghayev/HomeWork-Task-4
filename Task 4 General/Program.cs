@@ -746,38 +746,38 @@
 // */
 #endregion
 #region Task 16
-int num, numDigit, remainder, size;
-string strNum;
-L1:
-Console.Write("6 reqemli ededi daxil edin: ");
-strNum = Console.ReadLine();
-if (!int.TryParse(strNum, out num))
-{
-    goto L1;
-}
-numDigit = (int)Math.Log10(num) + 1;
-if (numDigit > 8)
-{
-    goto L1;
-}
-int[] nums = new int[0];
-while (num > 0)
-{
-    remainder = num % 10;
-    num /= 10;
+//int num, numDigit, remainder, size;
+//string strNum;
+//L1:
+//Console.Write("6 reqemli ededi daxil edin: ");
+//strNum = Console.ReadLine();
+//if (!int.TryParse(strNum, out num))
+//{
+//    goto L1;
+//}
+//numDigit = (int)Math.Log10(num) + 1;
+//if (numDigit > 8)
+//{
+//    goto L1;
+//}
+//int[] nums = new int[0];
+//while (num > 0)
+//{
+//    remainder = num % 10;
+//    num /= 10;
 
-    if (Array.IndexOf(nums, remainder) == -1)
-    {
-        size = nums.Length;
-        Array.Resize(ref nums, size + 1);
-        nums[size] = remainder;
-    }
-}
-Console.WriteLine($"tapilan tekrar reqemler {nums.Length}");
-foreach (var count in nums)
-{
-    Console.Write($" {count}, ");
-}
+//    if (Array.IndexOf(nums, remainder) == -1)
+//    {
+//        size = nums.Length;
+//        Array.Resize(ref nums, size + 1);
+//        nums[size] = remainder;
+//    }
+//}
+//Console.WriteLine($"tapilan tekrar reqemler {nums.Length}");
+//foreach (var count in nums)
+//{
+//    Console.Write($" {count}, ");
+//}
 
 /*
   Verilmish 6 reqemli ededde nece unikal reqem var ?
